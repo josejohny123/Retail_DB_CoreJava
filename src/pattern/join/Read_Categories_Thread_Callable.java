@@ -44,6 +44,7 @@ public class Read_Categories_Thread_Callable implements Callable{
 
 		boolean doneReadingFile =false;
 		//Reading Objects from the file
+		//Using loop to exit
 		while(!doneReadingFile){
 
 			try {
